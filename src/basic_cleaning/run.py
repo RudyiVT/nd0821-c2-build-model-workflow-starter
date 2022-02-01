@@ -46,7 +46,7 @@ def go(args):
     artifact = wandb.Artifact(
         args.output_artifact,
         type=args.output_type,
-        desctiption=args.output_desctiption,
+        description=args.output_description,
     )
     artifact.add_file("clean_sample.csv")
     run.log_artifact(artifact)
@@ -91,7 +91,7 @@ if __name__ == "__main__":
     )
 
     parser.add_argument(
-        "--min_price",
+        "--max_price",
         type=float,  ## INSERT TYPE HERE: str, float or int,
         help="Maximum price",  ## INSERT DESCRIPTION HERE,
         required=True
