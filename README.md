@@ -14,7 +14,3 @@ In this project you will build such a pipeline.
 ## License
 
 [License](LICENSE.txt)
-
-mlflow run https://github.com/RudyiVT/nd0821-c2-build-model-workflow-starter.git \
-             -v 1.0.0 \
-             -P hydra_options="etl.sample='sample2.csv'"
