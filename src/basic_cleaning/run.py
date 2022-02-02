@@ -38,7 +38,7 @@ def go(args):
     data['last_review'] = pd.to_datetime(data['last_review'])
 
     idx = data['longitude'].between(-74.25, -73.50) & data['latitude'].between(40.5, 41.2)
-    df = data[idx].copy()
+    data = data[idx].copy()
 
     # Saving data to local file
     logging.info("Saving clean data to local file")
