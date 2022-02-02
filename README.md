@@ -8,6 +8,7 @@ In this project you will build such a pipeline.
 
 
 [Weights and biases project](https://wandb.ai/rudyi/nyc_airbnb?workspace=user-rudyi)
+
 [Project git repo](https://github.com/RudyiVT/nd0821-c2-build-model-workflow-starter.git)
 
 
